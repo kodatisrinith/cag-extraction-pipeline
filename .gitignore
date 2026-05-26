@@ -1,0 +1,14 @@
+# Output and data files
+CAG_Output*/
+*.pdf
+*.csv
+*.jsonl
+
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+.DS_Store
+Thumbs.db
