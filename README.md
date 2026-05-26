@@ -38,18 +38,3 @@ fallback for scanned or image-based PDFs where no text layer is available.
 | Vision Model | OpenAI GPT-4o-mini |
 | Resume / Audit | JSONL action log |
 | CLI | argparse |
-
-## Requirements
-
-```bash
-pip install openai pypdf pdf2image Pillow python-dotenv
-```
-
-Poppler must also be on your system PATH for pdf2image to work:
-- Windows: https://github.com/oschwartz10612/poppler-windows/releases
-- Mac: `brew install poppler`
-- Linux: `sudo apt install poppler-utils`
-
-## Configuration
-
-Create a `.env` file before running:
